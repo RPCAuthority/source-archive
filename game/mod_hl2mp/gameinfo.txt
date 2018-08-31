@@ -1,0 +1,38 @@
+"GameInfo"
+{
+	game "Tango 7"
+	GameLogo 0
+	Developer "RPCAuthority Development"
+	Developer_URL "https://rpcauthority.github.io"
+	type multiplayer_only
+	nomodels 0
+	nohimodel 1
+	nocrosshair 1
+	supportsvr	1
+	hidden_maps
+	{
+		"test_speakers"		1
+		"test_hardware"		1
+	}
+	FileSystem
+	{
+		SteamAppId				243730
+		SearchPaths
+		{
+			game+mod			mod_hl2mp/custom/*
+			game+mod			mod_hl2mp/hl2mp_english.vpk
+			game+mod			mod_hl2mp/hl2mp_pak.vpk
+			game				|all_source_engine_paths|hl2/hl2_textures.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_vo_english.vpk
+			game				|all_source_engine_paths|hl2/hl2_sound_misc.vpk
+			game				|all_source_engine_paths|hl2/hl2_misc.vpk
+			platform			|all_source_engine_paths|platform/platform_misc.vpk
+			mod+mod_write+default_write_path		|gameinfo_path|.
+			game+game_write		mod_hl2mp
+			gamebin				mod_hl2mp/bin
+			game				|all_source_engine_paths|hl2
+			platform			|all_source_engine_paths|platform
+			game+download	mod_hl2mp/download
+		}
+	}
+}
